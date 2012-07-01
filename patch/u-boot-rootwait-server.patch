@@ -1,0 +1,12 @@
+diff -burN uboot-allwinner/include/configs/sun4i.h uboot-allwinner-patch/include/configs/sun4i.h
+--- uboot-allwinner/include/configs/sun4i.h	2012-06-13 16:33:54.122217723 +0700
++++ uboot-allwinner-patch/include/configs/sun4i.h	2012-06-13 19:18:48.127424922 +0700
+@@ -161,7 +161,7 @@
+ 	"console=ttyS0,115200\0" \
+ 	"root=/dev/mmcblk0p2\0" \
+ 	"panicarg=panic=10\0" \
+-	"extraargs=\0" \
++	"extraargs=rootwait mem=512M --no-log\0" \
+ 	"loglevel=8\0" \
+ 	"setargs=setenv bootargs console=${console} root=${root}" \
+ 	" loglevel=${loglevel} ${panicarg} ${extraargs}\0" \

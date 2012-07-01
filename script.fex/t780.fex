@@ -1088,7 +1088,7 @@ ir0_rx                    = port:PB04<2><default><default><default>
 ;----------------------------------------------------------------------------------
 ;pmu_twi_addr           ---slave address
 ;pmu_twi_id             ---i2c bus number (0 TWI0, 1 TWI2, 2 TWI3)
-:pmu_irq_id             ---irq number (0 irq0,1 irq1,……)
+;pmu_irq_id             ---irq number (0 irq0,1 irq1,……)
 ;pmu_battery_rdc        ---battery initial resistance,mΩ,根据实际电池内阻填写
 ;pmu_battery_cap        ---battery capability,mAh，根据实际电池容量填写
 ;pmu_init_chgcur        ---set initial charging current limite,mA，300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
