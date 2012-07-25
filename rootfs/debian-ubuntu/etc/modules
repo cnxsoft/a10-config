@@ -2,8 +2,16 @@
 #
 # This file contains the names of kernel modules that should be loaded
 # at boot time, one per line. Lines beginning with "#" are ignored.
-disp
+
+#For SATA Support
+sw_ahci_platform
+
+#Display and GPU
 lcd
 hdmi
+ump
+disp
+mali
+mali_drm
 8192cu
 
