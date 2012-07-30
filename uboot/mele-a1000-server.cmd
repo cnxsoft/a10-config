@@ -3,7 +3,7 @@ setenv boot_mmc 'fatload mmc 0 0x43000000 script.bin; fatload mmc 0 0x48000000 $
 setenv bootcmd 'run boot.scr setargs boot_mmc'
 setenv bootdelay '3'
 setenv console 'ttyS0,115200'
-setenv extraargs 'rootwait'
+setenv extraargs 'rootwait mem=512M'
 setenv kernel 'uImage'
 setenv loglevel '8'
 setenv panicarg 'panic=10'
